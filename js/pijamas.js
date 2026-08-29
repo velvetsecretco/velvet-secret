@@ -101,4 +101,73 @@ window.listaProductos = [
         "../img/Productos/Pijamas/18.jpg"
     ]
 },
+  {
+    nombre: "Pijama 2 Piezas Top de Tiritas + Short",
+
+    referencia: "52050",
+
+    codigo: "2624",
+
+    precio: "$25.000",
+
+    categoria: "pijamas",
+
+    nombreCategoria: "Pijamas",
+
+    tallas: ["S", "M", "L", "XL"],
+
+    descripcion:
+        "Pijama de dos piezas elaborada en tela piel de durazno, compuesta por top de tiritas y short. Diseño cómodo y suave al tacto.",
+
+    caracteristicas: [
+        "Set de 2 piezas.",
+        "Incluye top de tiritas y short.",
+        "Tela piel de durazno.",
+        "Disponible en tallas S, M, L y XL.",
+        "Textura suave y cómoda."
+    ],
+
+    imagenes: [
+        "../img/Productos/Pijamas/19.jpg",
+        "../img/Productos/Pijamas/20.jpg",
+        "../img/Productos/Pijamas/21.jpg",
+        "../img/Productos/Pijamas/22.jpg"
+    ]
+},  
+   {
+    nombre: "Pijama 2 Piezas en Tiras",
+
+    referencia: "0024",
+
+    codigo: "4385",
+
+    precio: "$45.000",
+
+    categoria: "pijamas",
+
+    nombreCategoria: "Pijamas",
+
+    tallas: ["S", "M", "L", "XL"],
+
+    descripcion:
+        "Pijama de dos piezas en tiras elaborada en tela piel de durazno, con una textura suave y cómoda.",
+
+    caracteristicas: [
+        "Set de 2 piezas.",
+        "Diseño en tiras.",
+        "Tela piel de durazno.",
+        "Disponible en tallas S, M, L y XL.",
+        "Textura suave y cómoda."
+    ],
+
+    imagenes: [
+        "../img/Productos/Pijamas/23.jpg",
+        "../img/Productos/Pijamas/24.jpg",
+        "../img/Productos/Pijamas/25.jpg",
+        "../img/Productos/Pijamas/26.jpg",
+        "../img/Productos/Pijamas/27.jpg",
+        "../img/Productos/Pijamas/28.jpg",
+        "../img/Productos/Pijamas/29.jpg"
+    ]
+}, 
 ];
