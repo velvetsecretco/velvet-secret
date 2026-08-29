@@ -296,5 +296,63 @@ window.listaProductos = [
         "../img/Productos/Accesorios/3010.jpg"
     ]
 },
-    
+   {
+    nombre: "Juego Erótico Fiesta Hot Drinks",
+
+    referencia: "",
+
+    codigo: "3707",
+
+    precio: "$29.000",
+
+    categoria: "juegos",
+
+    nombreCategoria: "Accesorios",
+
+    tallas: [],
+
+    descripcion:
+        "Juego de cartas para adultos Fiesta Hot Drinks, diseñado para compartir en pareja o con amigos y añadir diversión a reuniones y momentos especiales.",
+
+    caracteristicas: [
+        "Juego de cartas para adultos.",
+        "Incluye penitencias y preguntas atrevidas.",
+        "Dinámicas relacionadas con bebidas.",
+        "Ideal para fiestas y reuniones.",
+        "Diseñado para jugar en pareja o con amigos."
+    ],
+
+    imagenes: [
+        "../img/Productos/Accesorios/3011.jpg"
+    ]
+}, 
+    {
+    nombre: "Dados Sexo Oral",
+
+    referencia: "",
+
+    codigo: "4139",
+
+    precio: "$15.000",
+
+    categoria: "juegos",
+
+    nombreCategoria: "Accesorios",
+
+    tallas: [],
+
+    descripcion:
+        "Juego de dados para adultos diseñado para añadir variedad y diversión a los momentos en pareja.",
+
+    caracteristicas: [
+        "Incluye 2 dados.",
+        "El dado negro indica la acción.",
+        "El dado morado indica la forma o lugar de la acción.",
+        "Diseñado para jugar en pareja."
+    ],
+
+    imagenes: [
+        "../img/Productos/Accesorios/3012.jpg"
+    ]
+},
 ];
