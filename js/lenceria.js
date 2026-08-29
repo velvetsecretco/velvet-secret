@@ -168,4 +168,70 @@ window.listaProductos = [
         "../img/Productos/Lenceria/1025.jpg"
     ]
 },
+    {
+    nombre: "Arnés de Dos Piezas Ajustable",
+
+    referencia: "",
+
+    codigo: "3377",
+
+    precio: "$69.000",
+
+    categoria: "arneses",
+
+    nombreCategoria: "Lencería",
+
+    tallas: [],
+
+    descripcion:
+        "Arnés de dos piezas con diseño ajustable, ideal para complementar diferentes looks de lencería.",
+
+    caracteristicas: [
+        "Set de dos piezas.",
+        "Diseño ajustable.",
+        "Se adapta fácilmente al cuerpo.",
+        "Ideal para combinar con diferentes prendas de lencería."
+    ],
+
+    imagenes: [
+        "../img/Productos/Lenceria/1027.jpg"
+    ]
+},
+   {
+    nombre: "Conjunto Mariposa",
+
+    referencia: "",
+
+    codigo: "4005",
+
+    precio: "$29.000",
+
+    categoria: "conjuntos",
+
+    nombreCategoria: "Lencería",
+
+    tallas: ["Única"],
+
+    descripcion:
+        "Conjunto elaborado en encaje floral con brasier tipo triángulo sin varilla y panty tipo tanga con ajustes regulables. Diseño ligero, suave al tacto y cómodo.",
+
+    caracteristicas: [
+        "Elaborado en encaje floral.",
+        "Brasier tipo triángulo sin varilla.",
+        "Incluye panty tipo tanga.",
+        "Ajustes regulables para mayor comodidad.",
+        "Talla única.",
+        "Colores disponibles: negro, rojo, blanco, azul rey, morado lila, rosado Barbie y fucsia."
+    ],
+
+    imagenes: [
+        "../img/Productos/Lenceria/1028.jpg",
+        "../img/Productos/Lenceria/1029.jpg",
+        "../img/Productos/Lenceria/1030.jpg",
+        "../img/Productos/Lenceria/1031.jpg",
+        "../img/Productos/Lenceria/1032.jpg",
+        "../img/Productos/Lenceria/1033.jpg",
+        "../img/Productos/Lenceria/1034.jpg"
+    ]
+}, 
 ];
