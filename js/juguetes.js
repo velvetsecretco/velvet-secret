@@ -910,4 +910,62 @@
         "../img/Productos/Juguetes/5051.jpg"
     ]
 },  
+    {
+    nombre: "Lovense Lush 2",
+
+    referencia: "",
+
+    codigo: "2494",
+
+    precio: "$572.000",
+
+    categoria: "vibradores",
+
+    nombreCategoria: "Juguetes",
+
+    tallas: [],
+
+    descripcion:
+        "Lovense Lush 2, vibrador interactivo diseñado para ofrecer control y estimulación mediante sus funciones inteligentes.",
+
+    caracteristicas: [
+        "Modelo Lovense Lush 2.",
+        "Vibrador interactivo.",
+        "Versión mejorada.",
+        "6 meses de garantía."
+    ],
+
+    imagenes: [
+        "../img/Productos/Juguetes/5052.jpg"
+    ]
+},  
+   {
+    nombre: "Lovense Lush 3",
+
+    referencia: "",
+
+    codigo: "1852",
+
+    precio: "$686.000",
+
+    categoria: "vibradores",
+
+    nombreCategoria: "Juguetes",
+
+    tallas: [],
+
+    descripcion:
+        "Lovense Lush 3, vibrador interactivo con un diseño renovado y mejoras respecto a la generación anterior.",
+
+    caracteristicas: [
+        "Modelo Lovense Lush 3.",
+        "Vibrador interactivo.",
+        "Diseño renovado.",
+        "Versión mejorada de la línea Lush."
+    ],
+
+    imagenes: [
+        "../img/Productos/Juguetes/5053.jpg"
+    ]
+},   
 ];
