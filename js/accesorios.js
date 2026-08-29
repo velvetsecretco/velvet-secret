@@ -411,6 +411,8 @@ window.listaProductos = [
         "Incluye dinámicas relacionadas con bebidas.",
         "Ideal para jugar en pareja o con amigos.
 
+        ],
+
     imagenes: [
         "../img/Productos/Accesorios/3014.jpg"
     ]
