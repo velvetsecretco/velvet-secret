@@ -112,4 +112,60 @@ window.listaProductos = [
         "../img/Productos/Lenceria/1023.jpg"
     ]
 },
+    {
+    nombre: "Tanga Moño",
+
+    referencia: "179",
+
+    codigo: "4216",
+
+    precio: "$15.000",
+
+    categoria: "tangas",
+
+    nombreCategoria: "Lencería",
+
+    tallas: [],
+
+    descripcion:
+        "Tanga con delicado moño en la parte trasera, un diseño coqueto y femenino que aporta un toque especial.",
+
+    caracteristicas: [
+        "Detalle de moño en la parte trasera.",
+        "Diseño coqueto y femenino."
+    ],
+
+    imagenes: [
+        "../img/Productos/Lenceria/1024.jpg"
+    ]
+},
+    {
+    nombre: "Tanga Invisible Paquete x5",
+
+    referencia: "1247",
+
+    codigo: "1247",
+
+    precio: "$46.000",
+
+    categoria: "tangas",
+
+    nombreCategoria: "Lencería",
+
+    tallas: ["S", "M", "L", "XL"],
+
+    descripcion:
+        "Paquete de 5 tangas invisibles, diseñadas para brindar comodidad y un acabado discreto debajo de la ropa.",
+
+    caracteristicas: [
+        "Paquete x5 unidades.",
+        "Diseño invisible.",
+        "Cómodas y discretas.",
+        "Disponibles en tallas S, M, L y XL."
+    ],
+
+    imagenes: [
+        "../img/Productos/Lenceria/1025.jpg"
+    ]
+},
 ];
