@@ -355,4 +355,64 @@ window.listaProductos = [
         "../img/Productos/Accesorios/3012.jpg"
     ]
 },
+    {
+    nombre: "Parqués Erótico",
+
+    referencia: "",
+
+    codigo: "1451",
+
+    precio: "$43.000",
+
+    categoria: "juegos",
+
+    nombreCategoria: "Accesorios",
+
+    tallas: [],
+
+    descripcion:
+        "Juego de parqués para adultos diseñado para añadir diversión y dinamismo a reuniones y momentos en pareja.",
+
+    caracteristicas: [
+        "Juego de parqués para adultos.",
+        "Incluye dados.",
+        "Incluye fichas.",
+        "Incluye cartas.",
+        "Ideal para compartir en pareja o con amigos."
+    ],
+
+    imagenes: [
+        "../img/Productos/Accesorios/3013.jpg"
+    ]
+},
+    {
+    nombre: "Juego Erótico de Cartas Fondo Blanco",
+
+    referencia: "",
+
+    codigo: "2350",
+
+    precio: "$32.000",
+
+    categoria: "juegos",
+
+    nombreCategoria: "Accesorios",
+
+    tallas: [],
+
+    descripcion:
+        "Juego de cartas para adultos con diferentes retos, preguntas y dinámicas, ideal para añadir diversión a reuniones y momentos especiales.",
+
+    caracteristicas: [
+        "Juego de cartas para adultos.",
+        "Diseño con fondo blanco.",
+        "Incluye penitencias.",
+        "Incluye preguntas atrevidas.",
+        "Incluye dinámicas relacionadas con bebidas.",
+        "Ideal para jugar en pareja o con amigos.
+
+    imagenes: [
+        "../img/Productos/Accesorios/3014.jpg"
+    ]
+},
 ];
