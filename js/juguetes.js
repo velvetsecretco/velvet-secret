@@ -968,4 +968,67 @@
         "../img/Productos/Juguetes/5053.jpg"
     ]
 },   
+     {
+    nombre: "Lovense Lush 4",
+
+    referencia: "",
+
+    codigo: "3464",
+
+    precio: "$765.000",
+
+    categoria: "vibradores",
+
+    nombreCategoria: "Juguetes",
+
+    tallas: [],
+
+    descripcion:
+        "Lovense Lush 4, vibrador compacto y discreto con diseño ergonómico, desarrollado para adaptarse cómodamente al cuerpo.",
+
+    caracteristicas: [
+        "Modelo Lovense Lush 4.",
+        "Diseño compacto y ergonómico.",
+        "Vibración potente.",
+        "Funcionamiento silencioso y discreto.",
+        "Material suave y seguro."
+    ],
+
+    imagenes: [
+        "../img/Productos/Juguetes/5054.jpg"
+    ]
+}, 
+      {
+    nombre: "Lovense Lush Mini 4",
+
+    referencia: "",
+
+    codigo: "3873",
+
+    precio: "$765.000",
+
+    categoria: "vibradores",
+
+    nombreCategoria: "Juguetes",
+
+    tallas: [],
+
+    descripcion:
+        "Lovense Lush Mini 4, vibrador interactivo compacto con control mediante la aplicación Lovense Remote y conexión a larga distancia.",
+
+    caracteristicas: [
+        "Control mediante aplicación Lovense Remote.",
+        "Permite control a larga distancia en tiempo real.",
+        "36% más pequeño en comparación con Lush 4.",
+        "Resistencia al agua IPX7.",
+        "Permite controlar la luz desde la aplicación.",
+        "Recargable.",
+        "Fabricado en silicona biomédica.",
+        "6 meses de garantía."
+    ],
+
+    imagenes: [
+        "../img/Productos/Juguetes/5055.jpg"
+    ]
+},
 ];
