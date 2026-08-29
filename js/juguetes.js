@@ -815,4 +815,99 @@
         "../img/Productos/Juguetes/5048.jpg"
     ]
 },
+    {
+    nombre: "Vibrador Interactivo",
+
+    referencia: "",
+
+    codigo: "3656",
+
+    precio: "$108.000",
+
+    categoria: "vibradores",
+
+    nombreCategoria: "Juguetes",
+
+    tallas: [],
+
+    descripcion:
+        "Vibrador interactivo recargable con conectividad Bluetooth y control mediante aplicaciones compatibles, diseñado para ofrecer diferentes patrones e intensidades de vibración.",
+
+    caracteristicas: [
+        "11 modos de vibración.",
+        "Conectividad Bluetooth.",
+        "Control mediante aplicaciones compatibles.",
+        "Permite control a distancia de los patrones de vibración.",
+        "Nivel bajo de ruido.",
+        "Impermeable, pero no apto para inmersión profunda.",
+        "Recargable."
+    ],
+
+    imagenes: [
+        "../img/Productos/Juguetes/5049.jpg"
+    ]
+},  
+      {
+    nombre: "Vibrador Interactivo",
+
+    referencia: "",
+
+    codigo: "4298",
+
+    precio: "$72.000",
+
+    categoria: "vibradores",
+
+    nombreCategoria: "Juguetes",
+
+    tallas: [],
+
+    descripcion:
+        "Vibrador interactivo recargable con conectividad Bluetooth y control mediante aplicaciones compatibles, diseñado para estimulación íntima y diferentes patrones de vibración.",
+
+    caracteristicas: [
+        "9 modos de vibración.",
+        "Conectividad Bluetooth.",
+        "Control mediante aplicaciones compatibles.",
+        "Permite control a distancia de los patrones de vibración.",
+        "Nivel bajo de ruido.",
+        "Impermeable, pero no apto para inmersión profunda.",
+        "Recargable."
+    ],
+
+    imagenes: [
+        "../img/Productos/Juguetes/5050.jpg"
+    ]
+},
+    {
+    nombre: "Vibrador Interactivo",
+
+    referencia: "",
+
+    codigo: "4029",
+
+    precio: "$60.000",
+
+    categoria: "vibradores",
+
+    nombreCategoria: "Juguetes",
+
+    tallas: [],
+
+    descripcion:
+        "Vibrador interactivo recargable con conectividad Bluetooth, diseñado para estimulación íntima y control inalámbrico a corta o larga distancia.",
+
+    caracteristicas: [
+        "9 modos de vibración.",
+        "Conectividad Bluetooth.",
+        "Control inalámbrico a corta o larga distancia.",
+        "Nivel bajo de ruido.",
+        "Impermeable, pero no apto para inmersión profunda.",
+        "Recargable."
+    ],
+
+    imagenes: [
+        "../img/Productos/Juguetes/5051.jpg"
+    ]
+},  
 ];
