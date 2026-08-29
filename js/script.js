@@ -43,76 +43,100 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function mostrarProductos(productosParaMostrar) {
 
-        if (!contenedorProductos) {
-            console.error(
-                'No se encontró un elemento con id="contenedorProductos".'
-            );
+    if (!contenedorProductos) {
+        console.error(
+            'No se encontró un elemento con id="contenedorProductos".'
+        );
+        return;
+    }
 
-            return;
-        }
+    contenedorProductos.innerHTML = "";
 
-        contenedorProductos.innerHTML = "";
+    productosParaMostrar.forEach(function (producto) {
 
-        productosParaMostrar.forEach(function (producto) {
+        const tarjeta = document.createElement("article");
 
-            const tarjeta = document.createElement("article");
+        tarjeta.classList.add("producto-card");
 
-            tarjeta.classList.add("producto-card");
+        tarjeta.dataset.categoria = producto.categoria;
+        tarjeta.dataset.referencia = producto.referencia || "";
 
-            tarjeta.dataset.categoria = producto.categoria;
-            tarjeta.dataset.referencia = producto.referencia;
+        // Si tiene imágenes, muestra la primera.
+        // Si no tiene imágenes pero tiene video, muestra el video.
+        let contenidoVisual = "";
 
-            tarjeta.innerHTML = `
-                <div class="producto-imagen">
-                    <img
-                        src="${producto.imagenes[0]}"
-                        alt="${producto.nombre}"
-                    >
-                </div>
+        if (producto.imagenes && producto.imagenes.length > 0) {
 
-                <div class="producto-informacion">
-
-                    <p class="producto-categoria">
-                        ${producto.nombreCategoria}
-                    </p>
-
-                    <h3>
-                        ${producto.nombre}
-                    </h3>
-
-                    <p class="producto-codigo">
-                        Ref. ${producto.referencia}
-                    </p>
-
-                    <p class="producto-precio">
-                        ${producto.precio}
-                    </p>
-
-                    <button
-                        class="boton-ver-producto"
-                        type="button"
-                    >
-                        Ver producto
-                    </button>
-
-                </div>
+            contenidoVisual = `
+                <img
+                    src="${producto.imagenes[0]}"
+                    alt="${producto.nombre}"
+                >
             `;
 
-            const botonVerProducto =
-                tarjeta.querySelector(".boton-ver-producto");
+        } else if (producto.video) {
 
-            botonVerProducto.addEventListener(
-                "click",
-                function () {
-                    abrirProducto(producto);
-                }
-            );
+            contenidoVisual = `
+                <video
+                    src="${producto.video}"
+                    muted
+                    autoplay
+                    loop
+                    playsinline
+                    preload="metadata"
+                ></video>
+            `;
 
-            contenedorProductos.appendChild(tarjeta);
+        }
 
-        });
+        tarjeta.innerHTML = `
+            <div class="producto-imagen">
+                ${contenidoVisual}
+            </div>
 
-    }
+            <div class="producto-informacion">
+
+                <p class="producto-categoria">
+                    ${producto.nombreCategoria}
+                </p>
+
+                <h3>
+                    ${producto.nombre}
+                </h3>
+
+                <p class="producto-codigo">
+                    Ref. ${producto.referencia || ""}
+                </p>
+
+                <p class="producto-precio">
+                    ${producto.precio}
+                </p>
+
+                <button
+                    class="boton-ver-producto"
+                    type="button"
+                >
+                    Ver producto
+                </button>
+
+            </div>
+        `;
+
+        const botonVerProducto =
+            tarjeta.querySelector(".boton-ver-producto");
+
+        botonVerProducto.addEventListener(
+            "click",
+            function () {
+                abrirProducto(producto);
+            }
+        );
+
+        contenedorProductos.appendChild(tarjeta);
+
+    });
+
+}
 
 
     /* =====================================================
