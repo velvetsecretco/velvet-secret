@@ -689,4 +689,130 @@
         "../img/Productos/Juguetes/5038.jpg"
     ]
 },   
+   {
+    nombre: "Vibrador Anal Jordan",
+
+    referencia: "",
+
+    codigo: "4404",
+
+    precio: "$415.000",
+
+    categoria: "vibradores",
+
+    nombreCategoria: "Juguetes",
+
+    tallas: [],
+
+    descripcion:
+        "Vibrador anal Jordan con diferentes intensidades de vibración y empuje, control remoto magnético y conexión con la aplicación SVAKOM para control a distancia.",
+
+    caracteristicas: [
+        "5 modos de vibración.",
+        "1 modo de empuje.",
+        "Modo inteligente.",
+        "Control remoto conectado magnéticamente a la base.",
+        "Compatible con la aplicación SVAKOM.",
+        "Control a larga distancia mediante la aplicación.",
+        "Eje delgado y firme con cabeza acolchada.",
+        "Cuello estrecho y base ancha.",
+        "100% sumergible al agua."
+    ],
+
+    imagenes: [
+        "../img/Productos/Juguetes/5039.jpg"
+    ]
+},  
+ {
+    nombre: "Mini Bala Vibradora",
+
+    referencia: "",
+
+    codigo: "2946",
+
+    precio: "$12.000",
+
+    categoria: "vibradores",
+
+    nombreCategoria: "Juguetes",
+
+    tallas: [],
+
+    descripcion:
+        "Mini bala vibradora de diseño compacto y discreto, diseñada para estimulación externa y con diferentes modos de vibración.",
+
+    caracteristicas: [
+        "8 modos de vibración.",
+        "Diseño compacto y discreto.",
+        "Vibración potente.",
+        "Funciona con baterías.",
+        "Diseñada para estimulación externa."
+    ],
+
+    imagenes: [
+        "../img/Productos/Juguetes/5040.jpg",
+        "../img/Productos/Juguetes/5041.jpg"
+    ]
+},  
+  {
+    nombre: "Huevo Vibrador Limón",
+
+    referencia: "",
+
+    codigo: "2667",
+
+    precio: "$115.000",
+
+    categoria: "vibradores",
+
+    nombreCategoria: "Juguetes",
+
+    tallas: [],
+
+    descripcion:
+        "Huevo vibrador Limón diseñado para estimulación externa, con conectividad Bluetooth y control mediante aplicación móvil.",
+
+    caracteristicas: [
+        "Control mediante aplicación móvil.",
+        "Conectividad Bluetooth.",
+        "Múltiples modos de vibración.",
+        "Recargable.",
+        "Fabricado en silicona suave.",
+        "Diseño compacto y versátil."
+    ],
+
+    imagenes: [
+        "../img/Productos/Juguetes/5047.jpg"
+    ]
+}, 
+      {
+    nombre: "Masturbador Recargable con APP",
+
+    referencia: "",
+
+    codigo: "3815",
+
+    precio: "$79.000",
+
+    categoria: "masturbadores",
+
+    nombreCategoria: "Juguetes",
+
+    tallas: [],
+
+    descripcion:
+        "Masturbador masculino de silicona, recargable y con conectividad mediante aplicación móvil para controlar sus diferentes velocidades.",
+
+    caracteristicas: [
+        "10 velocidades.",
+        "Control mediante aplicación móvil.",
+        "Diseño manos libres.",
+        "Recargable.",
+        "Fabricado en silicona."
+    ],
+
+    imagenes: [
+        "../img/Productos/Juguetes/5048.jpg"
+    ]
+},
 ];
