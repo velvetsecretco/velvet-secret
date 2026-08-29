@@ -1296,4 +1296,95 @@ window.listaProductos = [
         "../img/Productos/Lubricantes/6043.jpg"
     ]
 },
+    {
+    nombre: "Gel Íntimo Estrechante",
+
+    referencia: "2038",
+
+    codigo: "2038",
+
+    precio: "$39.000",
+
+    categoria: "especiales",
+
+    nombreCategoria: "Lubricantes",
+
+    tallas: [],
+
+    descripcion:
+        "Gel íntimo estrechante diseñado para generar una sensación de contracción en el canal vaginal y favorecer un mayor contacto durante la intimidad.",
+
+    caracteristicas: [
+        "Efecto estrechante.",
+        "Genera sensación de contracción.",
+        "Diseñado para aumentar la sensación de contacto.",
+        "Aplicar en la entrada del canal vaginal 10 minutos antes de la relación."
+    ],
+
+    imagenes: [
+        "../img/Productos/Lubricantes/6044.jpg"
+    ]
+},
+    {
+    nombre: "Gel Íntimo Estrechante 10 ML",
+
+    referencia: "1029",
+
+    codigo: "1029",
+
+    precio: "$25.000",
+
+    categoria: "especiales",
+
+    nombreCategoria: "Lubricantes",
+
+    tallas: ["10 ML"],
+
+    descripcion:
+        "Gel íntimo estrechante diseñado para generar una sensación de contracción en el canal vaginal y favorecer un mayor contacto durante la intimidad.",
+
+    caracteristicas: [
+        "Presentación de 10 ML.",
+        "Efecto estrechante.",
+        "Genera sensación de contracción.",
+        "Diseñado para aumentar la sensación de contacto.",
+        "Aplicar en la entrada del canal vaginal 10 minutos antes de la relación."
+    ],
+
+    imagenes: [
+        "../img/Productos/Lubricantes/6045.jpg"
+    ]
+},
+    {
+    nombre: "Lubricante Estrechante Friction Elixir 15 ML",
+
+    referencia: "4067",
+
+    codigo: "4067",
+
+    precio: "$22.000",
+
+    categoria: "especiales",
+
+    nombreCategoria: "Lubricantes",
+
+    tallas: ["15 ML"],
+
+    descripcion:
+        "Lubricante íntimo Friction Elixir con efecto estrechante, formulado para aumentar la sensación de fricción y sensibilidad durante la intimidad.",
+
+    caracteristicas: [
+        "Presentación de 15 ML.",
+        "Efecto estrechante.",
+        "Ayuda a aumentar la sensación de fricción.",
+        "Enriquecido con aloe vera.",
+        "Ayuda a hidratar y calmar la zona íntima.",
+        "Textura sedosa y lubricación duradera.",
+        "Aplicar una pequeña cantidad en la zona íntima y distribuir suavemente."
+    ],
+
+    imagenes: [
+        "../img/Productos/Lubricantes/6046.jpg"
+    ]
+},
 ];
