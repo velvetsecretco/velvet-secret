@@ -1387,4 +1387,96 @@ window.listaProductos = [
         "../img/Productos/Lubricantes/6046.jpg"
     ]
 },
+  {
+    nombre: "Lubricante Pocket Pleasure Cereza 20 ML",
+
+    referencia: "1901",
+
+    codigo: "1901",
+
+    precio: "$22.000",
+
+    categoria: "sabores",
+
+    nombreCategoria: "Lubricantes",
+
+    tallas: ["20 ML"],
+
+    descripcion:
+        "Lubricante Pocket Pleasure sabor cereza, con textura sedosa y fórmula comestible.",
+
+    caracteristicas: [
+        "Presentación de 20 ML.",
+        "Sabor cereza.",
+        "Textura sedosa.",
+        "Fórmula comestible.",
+        "Incluye dados eróticos."
+    ],
+
+    imagenes: [
+        "../img/Productos/Lubricantes/6047.jpg"
+    ]
+},
+
+{
+    nombre: "Lubricante Pocket Pleasure Frambuesa 20 ML",
+
+    referencia: "1902",
+
+    codigo: "1902",
+
+    precio: "$22.000",
+
+    categoria: "sabores",
+
+    nombreCategoria: "Lubricantes",
+
+    tallas: ["20 ML"],
+
+    descripcion:
+        "Lubricante Pocket Pleasure sabor frambuesa, con textura sedosa y fórmula comestible.",
+
+    caracteristicas: [
+        "Presentación de 20 ML.",
+        "Sabor frambuesa.",
+        "Textura sedosa.",
+        "Fórmula comestible.",
+        "Incluye dados eróticos."
+    ],
+
+    imagenes: [
+        "../img/Productos/Lubricantes/6048.jpg"
+    ]
+},
+
+{
+    nombre: "Lubricante Pocket Pleasure Fresa 20 ML",
+
+    referencia: "1903",
+
+    codigo: "1903",
+
+    precio: "$22.000",
+
+    categoria: "sabores",
+
+    nombreCategoria: "Lubricantes",
+
+    tallas: ["20 ML"],
+
+    descripcion:
+        "Lubricante Pocket Pleasure sabor fresa, con textura sedosa y fórmula comestible.",
+
+    caracteristicas: [
+        "Presentación de 20 ML.",
+        "Sabor fresa.",
+        "Textura sedosa.",
+        "Fórmula comestible.",
+        "Incluye dados eróticos."
+    ],
+
+    imagenes: [
+        "../img/Productos/Lubricantes/6049.jpg"
+    ]
+},  
 ];
