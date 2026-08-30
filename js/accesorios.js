@@ -409,7 +409,7 @@ window.listaProductos = [
         "Incluye penitencias.",
         "Incluye preguntas atrevidas.",
         "Incluye dinámicas relacionadas con bebidas.",
-        "Ideal para jugar en pareja o con amigos.
+        "Ideal para jugar en pareja o con amigos."
 
         ],
 
