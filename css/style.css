@@ -15,7 +15,6 @@ html {
 body {
     background-color: #050505;
     color: #ffffff;
-
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
 }
@@ -119,10 +118,8 @@ img {
 .menu > a,
 .enlace-productos {
     color: var(--blanco);
-
     font-size: 15px;
     font-weight: bold;
-
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -178,7 +175,6 @@ img {
 
 .submenu a:hover {
     padding-left: 24px;
-
     color: var(--negro);
     background-color: var(--dorado);
 }
@@ -191,6 +187,10 @@ img {
 /* ------------------------------
    BUSCADOR
 ------------------------------ */
+
+.buscador {
+    position: relative;
+}
 
 .buscador input {
     width: 210px;
@@ -214,9 +214,7 @@ img {
 
 .buscador input:focus {
     border-color: var(--dorado);
-
-    box-shadow:
-        0 0 0 3px rgba(212, 175, 55, 0.12);
+    box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.12);
 }
 
 
@@ -258,11 +256,7 @@ img {
     left: 0;
     bottom: 0;
 
-    background:
-        linear-gradient(
-            transparent,
-            var(--negro)
-        );
+    background: linear-gradient(transparent, var(--negro));
 
     pointer-events: none;
 }
@@ -296,8 +290,7 @@ img {
 
     color: var(--dorado-claro);
 
-    text-shadow:
-        0 4px 25px rgba(0, 0, 0, 0.8);
+    text-shadow: 0 4px 25px rgba(0, 0, 0, 0.8);
 }
 
 .hero-eslogan {
@@ -329,6 +322,7 @@ img {
     padding: 16px 32px;
 
     color: var(--negro);
+
     background:
         linear-gradient(
             135deg,
@@ -345,8 +339,7 @@ img {
     text-decoration: none;
     text-transform: uppercase;
 
-    box-shadow:
-        0 10px 30px rgba(212, 175, 55, 0.18);
+    box-shadow: 0 10px 30px rgba(212, 175, 55, 0.18);
 
     transition:
         transform 0.3s ease,
@@ -358,8 +351,7 @@ img {
 .btn-contacto:hover {
     transform: translateY(-4px);
 
-    box-shadow:
-        0 16px 35px rgba(212, 175, 55, 0.28);
+    box-shadow: 0 16px 35px rgba(212, 175, 55, 0.28);
 
     filter: brightness(1.08);
 }
@@ -371,7 +363,6 @@ img {
 
 .categorias {
     padding: 110px 7%;
-
     background-color: var(--negro);
 }
 
@@ -446,8 +437,7 @@ img {
 
     text-decoration: none;
 
-    box-shadow:
-        0 15px 35px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
 
     transition:
         transform 0.35s ease,
@@ -519,11 +509,6 @@ img {
 /* ------------------------------
    IMÁGENES DE LAS CATEGORÍAS
 ------------------------------ */
-
-/*
-Cuando tengas las imágenes, guárdalas dentro de img
-con estos nombres exactos.
-*/
 
 .card-lenceria {
     background-image:
@@ -670,7 +655,6 @@ con estos nombres exactos.
 
     .hero {
         padding-left: 6%;
-
         background-position: 60% center;
     }
 
@@ -690,7 +674,6 @@ con estos nombres exactos.
     .header {
         min-height: auto;
         padding: 18px 5%;
-
         flex-wrap: wrap;
     }
 
@@ -708,9 +691,7 @@ con estos nombres exactos.
 
     .menu {
         width: 100%;
-
         order: 3;
-
         justify-content: center;
         gap: 24px;
     }
@@ -718,7 +699,6 @@ con estos nombres exactos.
     .submenu {
         left: auto;
         right: 0;
-
         transform: none;
     }
 
@@ -727,7 +707,6 @@ con estos nombres exactos.
         padding: 220px 7% 80px;
 
         align-items: flex-end;
-
         text-align: center;
 
         background:
@@ -770,7 +749,6 @@ con estos nombres exactos.
 
     .footer {
         flex-direction: column;
-
         text-align: center;
     }
 
@@ -829,6 +807,8 @@ con estos nombres exactos.
     }
 
 }
+
+
 /* ==================================
    PÁGINA DE CATÁLOGO
 ================================== */
@@ -1121,6 +1101,7 @@ con estos nombres exactos.
     overflow: hidden;
     background: #e8e8e8;
 }
+
 .producto-imagen img {
     width: 100%;
     height: 100%;
@@ -1219,159 +1200,7 @@ con estos nombres exactos.
 }
 
 
-/* MODAL */
-
-.modal-producto {
-    position: fixed;
-    inset: 0;
-    z-index: 2000;
-
-    display: none;
-    align-items: center;
-    justify-content: center;
-
-    padding: 25px;
-
-    background: rgba(0, 0, 0, 0.88);
-}
-
-.modal-producto.abierto {
-    display: flex;
-}
-
-.modal-contenido {
-    position: relative;
-
-    width: min(1000px, 100%);
-    max-height: 92vh;
-
-    display: grid;
-    grid-template-columns: 1.1fr 0.9fr;
-
-    overflow: auto;
-
-    background: #ffffff;
-    border-radius: 16px;
-}
-
-.cerrar-modal {
-    position: absolute;
-    top: 12px;
-    right: 17px;
-    z-index: 2;
-
-    width: 42px;
-    height: 42px;
-
-    color: #ffffff;
-    background: rgba(0, 0, 0, 0.75);
-
-    border: none;
-    border-radius: 50%;
-
-    cursor: pointer;
-
-    font-size: 1.7rem;
-}
-
-.modal-imagen {
-    min-height: 600px;
-    background: #eeeeee;
-}
-
-.modal-imagen img {
-    width: 100%;
-    height: 100%;
-
-    display: block;
-
-    object-fit: cover;
-}
-
-.modal-informacion {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    padding: 55px;
-}
-
-.modal-marca {
-    color: #a8871d;
-
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 0.75rem;
-}
-
-.modal-informacion h2 {
-    margin: 15px 0;
-
-    color: #111111;
-
-    font-family: Georgia, serif;
-    font-size: 2.2rem;
-}
-
-.modal-codigo {
-    color: #777777;
-    font-size: 0.9rem;
-}
-
-.modal-precio {
-    margin: 18px 0 25px;
-
-    color: #111111;
-
-    font-size: 1.7rem;
-    font-weight: bold;
-}
-
-.instruccion-captura {
-    margin-bottom: 25px;
-    padding: 20px;
-
-    background: #f5f1e8;
-
-    border-left: 4px solid #d4af37;
-    border-radius: 5px;
-}
-
-.instruccion-captura strong {
-    color: #111111;
-}
-
-.instruccion-captura p {
-    margin-top: 8px;
-
-    color: #555555;
-    line-height: 1.6;
-    font-size: 0.9rem;
-}
-
-.boton-whatsapp {
-    display: block;
-
-    padding: 15px 25px;
-
-    color: #ffffff;
-    background: #1f9f55;
-
-    border-radius: 7px;
-
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-
-    transition: transform 0.3s ease;
-}
-
-.boton-whatsapp:hover {
-    transform: translateY(-2px);
-}
-
-
-/* FOOTER */
+/* FOOTER CATÁLOGO */
 
 .footer-catalogo {
     padding: 60px 20px;
@@ -1403,7 +1232,7 @@ con estos nombres exactos.
 }
 
 
-/* RESPONSIVE */
+/* RESPONSIVE CATÁLOGO */
 
 @media (max-width: 950px) {
 
@@ -1413,14 +1242,6 @@ con estos nombres exactos.
 
     .pasos-compra {
         grid-template-columns: repeat(2, 1fr);
-    }
-
-    .modal-contenido {
-        grid-template-columns: 1fr;
-    }
-
-    .modal-imagen {
-        min-height: 450px;
     }
 
 }
@@ -1452,30 +1273,12 @@ con estos nombres exactos.
         grid-template-columns: 1fr;
     }
 
-    .modal-producto {
-        padding: 10px;
-    }
-
-    .modal-imagen {
-        min-height: 400px;
-    }
-
-    .modal-informacion {
-        padding: 35px 25px;
-    }
-
-    .modal-informacion h2 {
-        font-size: 1.8rem;
-    }
-
 }
+
+
 /* =========================================================
    RESULTADOS DEL BUSCADOR
 ========================================================= */
-
-.buscador {
-    position: relative;
-}
 
 .resultados-busqueda {
     position: absolute;
@@ -1526,53 +1329,12 @@ con estos nombres exactos.
 
     color: #aaaaaa;
 }
-/* =========================================================
-   DESCRIPCIÓN Y CARACTERÍSTICAS DEL PRODUCTO
-========================================================= */
 
-.modal-descripcion,
-.modal-caracteristicas {
-    margin-bottom: 22px;
-}
 
-.modal-descripcion h3,
-.modal-caracteristicas h3 {
-    margin-bottom: 10px;
-
-    color: #111111;
-
-    font-family: Georgia, serif;
-    font-size: 1.15rem;
-}
-
-.modal-descripcion p {
-    color: #555555;
-
-    font-size: 0.92rem;
-    line-height: 1.6;
-}
-
-.modal-caracteristicas ul {
-    padding-left: 20px;
-}
-
-.modal-caracteristicas li {
-    margin-bottom: 7px;
-
-    color: #555555;
-
-    font-size: 0.9rem;
-    line-height: 1.5;
-}
 /* =========================================================
    VELVET SECRET
    VISTA GRANDE DEL PRODUCTO
    APLICA A TODAS LAS CATEGORÍAS
-========================================================= */
-
-
-/* =========================================================
-   FONDO DEL MODAL
 ========================================================= */
 
 .modal-producto {
@@ -1599,9 +1361,7 @@ con estos nombres exactos.
 }
 
 
-/* =========================================================
-   CONTENEDOR PRINCIPAL
-========================================================= */
+/* CONTENEDOR PRINCIPAL */
 
 .modal-contenido {
     position: relative;
@@ -1620,14 +1380,11 @@ con estos nombres exactos.
 
     overflow: hidden;
 
-    box-shadow:
-        0 25px 80px rgba(0, 0, 0, 0.45);
+    box-shadow: 0 25px 80px rgba(0, 0, 0, 0.45);
 }
 
 
-/* =========================================================
-   BOTÓN CERRAR
-========================================================= */
+/* BOTÓN CERRAR */
 
 .cerrar-modal {
     position: absolute;
@@ -1658,15 +1415,11 @@ con estos nombres exactos.
     font-weight: normal;
     line-height: 1;
 
-    box-shadow:
-        0 4px 15px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
 }
 
 
-/* =========================================================
-   LADO IZQUIERDO
-   GALERÍA
-========================================================= */
+/* LADO IZQUIERDO */
 
 .modal-galeria {
     width: 100%;
@@ -1683,9 +1436,7 @@ con estos nombres exactos.
 }
 
 
-/* =========================================================
-   IMAGEN PRINCIPAL
-========================================================= */
+/* IMAGEN PRINCIPAL */
 
 .modal-imagen {
     width: 100%;
@@ -1721,9 +1472,7 @@ con estos nombres exactos.
 }
 
 
-/* =========================================================
-   MINIATURAS
-========================================================= */
+/* MINIATURAS */
 
 .galeria-producto {
     width: 100%;
@@ -1777,9 +1526,7 @@ con estos nombres exactos.
 
 .miniatura-producto.activa {
     border: 2px solid #111111;
-
-    box-shadow:
-        0 0 0 1px #ffffff;
+    box-shadow: 0 0 0 1px #ffffff;
 }
 
 .miniatura-producto img {
@@ -1792,10 +1539,7 @@ con estos nombres exactos.
 }
 
 
-/* =========================================================
-   LADO DERECHO
-   INFORMACIÓN
-========================================================= */
+/* LADO DERECHO */
 
 .modal-informacion {
     position: relative !important;
@@ -1819,9 +1563,7 @@ con estos nombres exactos.
 }
 
 
-/* =========================================================
-   MARCA
-========================================================= */
+/* MARCA */
 
 .modal-marca {
     display: block !important;
@@ -1841,9 +1583,7 @@ con estos nombres exactos.
 }
 
 
-/* =========================================================
-   NOMBRE
-========================================================= */
+/* NOMBRE */
 
 #modalNombre {
     display: block !important;
@@ -1868,9 +1608,7 @@ con estos nombres exactos.
 }
 
 
-/* =========================================================
-   CÓDIGO Y REFERENCIA
-========================================================= */
+/* CÓDIGO Y REFERENCIA */
 
 #modalCodigo {
     display: block !important;
@@ -1888,9 +1626,7 @@ con estos nombres exactos.
 }
 
 
-/* =========================================================
-   PRECIO
-========================================================= */
+/* PRECIO */
 
 #modalPrecio {
     display: block !important;
@@ -1911,9 +1647,7 @@ con estos nombres exactos.
 }
 
 
-/* =========================================================
-   TALLAS
-========================================================= */
+/* TALLAS */
 
 .modal-tallas {
     margin-bottom: 30px;
@@ -1960,9 +1694,7 @@ con estos nombres exactos.
 }
 
 
-/* =========================================================
-   DESCRIPCIÓN
-========================================================= */
+/* DESCRIPCIÓN */
 
 .modal-descripcion {
     margin-bottom: 28px;
@@ -1995,9 +1727,7 @@ con estos nombres exactos.
 }
 
 
-/* =========================================================
-   CARACTERÍSTICAS
-========================================================= */
+/* CARACTERÍSTICAS */
 
 .modal-caracteristicas {
     margin-bottom: 28px;
@@ -2036,9 +1766,7 @@ con estos nombres exactos.
 }
 
 
-/* =========================================================
-   MENSAJE DE CAPTURA
-========================================================= */
+/* INSTRUCCIÓN DE CAPTURA */
 
 .instruccion-captura {
     display: block !important;
@@ -2075,9 +1803,7 @@ con estos nombres exactos.
 }
 
 
-/* =========================================================
-   BOTÓN WHATSAPP
-========================================================= */
+/* BOTÓN WHATSAPP */
 
 .boton-whatsapp {
     width: 100%;
@@ -2122,9 +1848,7 @@ con estos nombres exactos.
 }
 
 
-/* =========================================================
-   PRODUCTO SIN IMAGEN
-========================================================= */
+/* PRODUCTO SIN IMAGEN */
 
 .producto-sin-imagen {
     width: 100%;
@@ -2141,9 +1865,7 @@ con estos nombres exactos.
 }
 
 
-/* =========================================================
-   TABLET
-========================================================= */
+/* TABLET */
 
 @media (max-width: 1000px) {
 
@@ -2167,9 +1889,7 @@ con estos nombres exactos.
 }
 
 
-/* =========================================================
-   TABLET VERTICAL Y CELULAR
-========================================================= */
+/* TABLET VERTICAL Y CELULAR */
 
 @media (max-width: 800px) {
 
@@ -2262,9 +1982,7 @@ con estos nombres exactos.
 }
 
 
-/* =========================================================
-   CELULAR PEQUEÑO
-========================================================= */
+/* CELULAR PEQUEÑO */
 
 @media (max-width: 480px) {
 
