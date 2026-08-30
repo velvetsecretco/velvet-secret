@@ -11,13 +11,11 @@
 
     <title>Lencería | Velvet Secret</title>
 
-    <link
-        rel="stylesheet"
-        href="../css/style.css"
-    >
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
+
 
     <!-- =====================================================
          ENCABEZADO
@@ -52,7 +50,7 @@
 
 
     <!-- =====================================================
-         PORTADA DE LA CATEGORÍA
+         PORTADA
     ====================================================== -->
 
     <section class="portada-categoria portada-lenceria">
@@ -92,11 +90,10 @@
 
         <div class="pasos-compra">
 
+
             <div class="paso-compra">
 
-                <span>
-                    1
-                </span>
+                <span>1</span>
 
                 <h3>
                     Elige tu producto
@@ -112,9 +109,7 @@
 
             <div class="paso-compra">
 
-                <span>
-                    2
-                </span>
+                <span>2</span>
 
                 <h3>
                     Ábrelo
@@ -130,9 +125,7 @@
 
             <div class="paso-compra">
 
-                <span>
-                    3
-                </span>
+                <span>3</span>
 
                 <h3>
                     Toma una captura
@@ -148,9 +141,7 @@
 
             <div class="paso-compra">
 
-                <span>
-                    4
-                </span>
+                <span>4</span>
 
                 <h3>
                     Envíala por WhatsApp
@@ -161,6 +152,7 @@
                 </p>
 
             </div>
+
 
         </div>
 
@@ -199,6 +191,7 @@
         ================================================== -->
 
         <div class="filtros-productos">
+
 
             <button
                 class="filtro activo"
@@ -298,11 +291,12 @@
                 Vestidos de baño
             </button>
 
+
         </div>
 
 
         <!-- =================================================
-             PRODUCTOS GENERADOS POR JAVASCRIPT
+             PRODUCTOS GENERADOS CON JAVASCRIPT
         ================================================== -->
 
         <section
@@ -315,27 +309,30 @@
 
 
     <!-- =====================================================
-         MODAL DEL PRODUCTO
+         VISTA DEL PRODUCTO
     ====================================================== -->
 
     <div
         class="modal-producto"
         id="modalProducto"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="modalNombre"
+        aria-hidden="true"
     >
 
-        <div class="modal-contenido">
+        <div
+            class="modal-contenido"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="modalNombre"
+        >
 
 
-            <!-- CERRAR -->
+            <!-- BOTÓN CERRAR -->
 
             <button
                 class="cerrar-modal"
                 id="cerrarModal"
                 type="button"
-                aria-label="Cerrar"
+                aria-label="Cerrar producto"
             >
                 ×
             </button>
@@ -345,7 +342,10 @@
                  GALERÍA
             ============================================== -->
 
-            <div class="modal-galeria">
+            <section class="modal-galeria">
+
+
+                <!-- IMAGEN PRINCIPAL -->
 
                 <div class="modal-imagen">
 
@@ -358,29 +358,39 @@
                 </div>
 
 
+                <!-- MINIATURAS -->
+
                 <div
                     class="galeria-producto"
                     id="galeriaProducto"
                 >
                 </div>
 
-            </div>
+
+            </section>
 
 
             <!-- =============================================
-                 INFORMACIÓN DEL PRODUCTO
+                 INFORMACIÓN
             ============================================== -->
 
-            <div class="modal-informacion">
+            <section class="modal-informacion">
 
-                <span class="modal-marca">
-                    Velvet Secret
-                </span>
 
+                <!-- MARCA -->
+
+                <p class="modal-marca">
+                    VELVET SECRET
+                </p>
+
+
+                <!-- NOMBRE -->
 
                 <h2 id="modalNombre">
                 </h2>
 
+
+                <!-- REFERENCIA Y CÓDIGO -->
 
                 <p
                     class="modal-codigo"
@@ -389,6 +399,8 @@
                 </p>
 
 
+                <!-- PRECIO -->
+
                 <p
                     class="modal-precio"
                     id="modalPrecio"
@@ -396,12 +408,34 @@
                 </p>
 
 
-                <!--
-                    Las tallas, descripción y características
-                    son creadas automáticamente por script.js
-                    después del precio.
-                -->
+                <!-- TALLAS -->
 
+                <div
+                    class="modal-tallas"
+                    id="modalTallas"
+                >
+                </div>
+
+
+                <!-- DESCRIPCIÓN -->
+
+                <div
+                    class="modal-descripcion"
+                    id="modalDescripcion"
+                >
+                </div>
+
+
+                <!-- CARACTERÍSTICAS -->
+
+                <div
+                    class="modal-caracteristicas"
+                    id="modalCaracteristicas"
+                >
+                </div>
+
+
+                <!-- INSTRUCCIÓN -->
 
                 <div class="instruccion-captura">
 
@@ -418,17 +452,21 @@
                 </div>
 
 
+                <!-- WHATSAPP -->
+
                 <a
-                    href="https://api.whatsapp.com/send?phone=573022657696&text=Hola%2C%20quiero%20consultar%20la%20disponibilidad%20de%20este%20producto."
+                    href="https://api.whatsapp.com/send?phone=573022657696"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="boton-whatsapp"
                     id="botonWhatsapp"
                 >
-                    Abrir WhatsApp
+                    Consultar por WhatsApp
                 </a>
 
-            </div>
+
+            </section>
+
 
         </div>
 
@@ -462,6 +500,7 @@
 
     <script src="../js/lenceria.js"></script>
     <script src="../js/script.js"></script>
+
 
 </body>
 
