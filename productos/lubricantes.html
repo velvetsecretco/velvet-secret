@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+
     <meta
         name="viewport"
         content="width=device-width, initial-scale=1.0"
@@ -15,30 +16,54 @@
 
 <body>
 
-    <!-- ENCABEZADO -->
+
+    <!-- =====================================================
+         ENCABEZADO
+    ====================================================== -->
+
     <header class="header-catalogo">
 
-        <a href="../index.html" class="logo-catalogo">
+        <a
+            href="../index.html"
+            class="logo-catalogo"
+        >
             Velvet Secret
         </a>
 
         <nav class="nav-catalogo">
-            <a href="../index.html">Inicio</a>
-            <a href="#productos">Productos</a>
-            <a href="#como-comprar">Cómo comprar</a>
+
+            <a href="../index.html">
+                Inicio
+            </a>
+
+            <a href="#productos">
+                Productos
+            </a>
+
+            <a href="#como-comprar">
+                Cómo comprar
+            </a>
+
         </nav>
 
     </header>
 
 
-    <!-- PORTADA -->
+    <!-- =====================================================
+         PORTADA
+    ====================================================== -->
+
     <section class="portada-categoria portada-lubricantes">
 
         <div class="portada-categoria-contenido">
 
-            <span>Colección Velvet Secret</span>
+            <span>
+                Colección Velvet Secret
+            </span>
 
-            <h1>Lubricantes</h1>
+            <h1>
+                Lubricantes
+            </h1>
 
             <p>
                 Productos diseñados para brindar mayor comodidad,
@@ -50,70 +75,109 @@
     </section>
 
 
-    <!-- CÓMO COMPRAR -->
-    <section class="como-comprar" id="como-comprar">
+    <!-- =====================================================
+         CÓMO COMPRAR
+    ====================================================== -->
 
-        <h2>¿Cómo comprar?</h2>
+    <section
+        class="como-comprar"
+        id="como-comprar"
+    >
+
+        <h2>
+            ¿Cómo comprar?
+        </h2>
 
         <div class="pasos-compra">
 
+
             <div class="paso-compra">
+
                 <span>1</span>
 
-                <h3>Elige tu producto</h3>
+                <h3>
+                    Elige tu producto
+                </h3>
 
                 <p>
                     Explora nuestra colección y selecciona el
                     lubricante que mejor se adapte a tus necesidades.
                 </p>
+
             </div>
 
+
             <div class="paso-compra">
+
                 <span>2</span>
 
-                <h3>Ábrelo</h3>
+                <h3>
+                    Ábrelo
+                </h3>
 
                 <p>
-                    Presiona "Ver producto" para conocer sus
+                    Presiona “Ver producto” para conocer sus
                     características y presentación.
                 </p>
+
             </div>
 
+
             <div class="paso-compra">
+
                 <span>3</span>
 
-                <h3>Toma una captura</h3>
+                <h3>
+                    Toma una captura
+                </h3>
 
                 <p>
                     La captura incluirá el nombre,
                     referencia y precio.
                 </p>
+
             </div>
 
+
             <div class="paso-compra">
+
                 <span>4</span>
 
-                <h3>Envíala por WhatsApp</h3>
+                <h3>
+                    Envíala por WhatsApp
+                </h3>
 
                 <p>
                     Confirmaremos disponibilidad y resolveremos
                     cualquier duda.
                 </p>
+
             </div>
+
 
         </div>
 
     </section>
 
 
-    <!-- CATÁLOGO -->
-    <main class="catalogo-productos" id="productos">
+    <!-- =====================================================
+         CATÁLOGO
+    ====================================================== -->
+
+    <main
+        class="catalogo-productos"
+        id="productos"
+    >
 
         <div class="encabezado-productos">
 
-            <span>Nuestra colección</span>
+            <span>
+                Nuestra colección
+            </span>
 
-            <h2>Mayor comodidad</h2>
+            <h2>
+                Mayor comodidad
+            </h2>
 
             <p>
                 Explora las diferentes opciones de lubricantes
@@ -123,8 +187,12 @@
         </div>
 
 
-        <!-- FILTROS -->
+        <!-- =================================================
+             FILTROS
+        ================================================== -->
+
         <div class="filtros-productos">
+
 
             <button
                 class="filtro activo"
@@ -134,6 +202,7 @@
                 Todos
             </button>
 
+
             <button
                 class="filtro"
                 data-filtro="base-agua"
@@ -141,6 +210,7 @@
             >
                 Base agua
             </button>
+
 
             <button
                 class="filtro"
@@ -150,6 +220,7 @@
                 Base silicona
             </button>
 
+
             <button
                 class="filtro"
                 data-filtro="calor"
@@ -157,6 +228,7 @@
             >
                 Efecto calor
             </button>
+
 
             <button
                 class="filtro"
@@ -166,6 +238,7 @@
                 Efecto frío
             </button>
 
+
             <button
                 class="filtro"
                 data-filtro="sabores"
@@ -173,6 +246,7 @@
             >
                 Sabores
             </button>
+
 
             <button
                 class="filtro"
@@ -182,73 +256,151 @@
                 Especiales
             </button>
 
+
         </div>
 
 
-        <!-- PRODUCTOS -->
+        <!-- =================================================
+             PRODUCTOS GENERADOS CON JAVASCRIPT
+        ================================================== -->
+
         <section
             class="grid-productos"
-            id="contenedorProductos">
+            id="contenedorProductos"
+        >
         </section>
 
     </main>
 
 
-    <!-- MODAL -->
+    <!-- =====================================================
+         VISTA DEL PRODUCTO
+    ====================================================== -->
+
     <div
         class="modal-producto"
         id="modalProducto"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="modalNombre">
+        aria-hidden="true"
+    >
 
-        <div class="modal-contenido">
+        <div
+            class="modal-contenido"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="modalNombre"
+        >
+
+
+            <!-- BOTÓN CERRAR -->
 
             <button
                 class="cerrar-modal"
                 id="cerrarModal"
                 type="button"
-                aria-label="Cerrar">
+                aria-label="Cerrar producto"
+            >
                 ×
             </button>
 
 
-            <div class="modal-galeria">
+            <!-- =============================================
+                 GALERÍA
+            ============================================== -->
+
+            <section class="modal-galeria">
+
+
+                <!-- IMAGEN PRINCIPAL -->
 
                 <div class="modal-imagen">
 
                     <img
                         src=""
                         alt=""
-                        id="modalImagen">
+                        id="modalImagen"
+                    >
 
                 </div>
+
+
+                <!-- MINIATURAS -->
 
                 <div
                     class="galeria-producto"
-                    id="galeriaProducto">
+                    id="galeriaProducto"
+                >
                 </div>
 
-            </div>
+
+            </section>
 
 
-            <div class="modal-informacion">
+            <!-- =============================================
+                 INFORMACIÓN
+            ============================================== -->
 
-                <span class="modal-marca">
-                    Velvet Secret
-                </span>
+            <section class="modal-informacion">
 
-                <h2 id="modalNombre"></h2>
+
+                <!-- MARCA -->
+
+                <p class="modal-marca">
+                    VELVET SECRET
+                </p>
+
+
+                <!-- NOMBRE -->
+
+                <h2 id="modalNombre">
+                </h2>
+
+
+                <!-- REFERENCIA Y CÓDIGO -->
 
                 <p
                     class="modal-codigo"
-                    id="modalCodigo">
+                    id="modalCodigo"
+                >
                 </p>
+
+
+                <!-- PRECIO -->
 
                 <p
                     class="modal-precio"
-                    id="modalPrecio">
+                    id="modalPrecio"
+                >
                 </p>
+
+
+                <!-- TALLAS / PRESENTACIÓN -->
+
+                <div
+                    class="modal-tallas"
+                    id="modalTallas"
+                >
+                </div>
+
+
+                <!-- DESCRIPCIÓN -->
+
+                <div
+                    class="modal-descripcion"
+                    id="modalDescripcion"
+                >
+                </div>
+
+
+                <!-- CARACTERÍSTICAS -->
+
+                <div
+                    class="modal-caracteristicas"
+                    id="modalCaracteristicas"
+                >
+                </div>
+
+
+                <!-- INSTRUCCIÓN -->
 
                 <div class="instruccion-captura">
 
@@ -257,34 +409,44 @@
                     </strong>
 
                     <p>
-                        Toma una captura de esta pantalla y envíanosla
-                        por WhatsApp para confirmar disponibilidad.
+                        Toma una captura de esta pantalla y
+                        envíanosla por WhatsApp para confirmar
+                        disponibilidad.
                     </p>
 
                 </div>
 
+
+                <!-- WHATSAPP -->
+
                 <a
-                    href="https://api.whatsapp.com/send?phone=573022657696&text=Hola%2C%20quiero%20consultar%20la%20disponibilidad%20de%20este%20lubricante."
+                    href="https://api.whatsapp.com/send?phone=573022657696"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="boton-whatsapp"
-                    id="botonWhatsapp">
-
-                    Abrir WhatsApp
-
+                    id="botonWhatsapp"
+                >
+                    Consultar por WhatsApp
                 </a>
 
-            </div>
+
+            </section>
+
 
         </div>
 
     </div>
 
 
-    <!-- PIE DE PÁGINA -->
+    <!-- =====================================================
+         PIE DE PÁGINA
+    ====================================================== -->
+
     <footer class="footer-catalogo">
 
-        <h2>Velvet Secret</h2>
+        <h2>
+            Velvet Secret
+        </h2>
 
         <p>
             Elegancia, seguridad y estilo en cada detalle.
@@ -297,9 +459,13 @@
     </footer>
 
 
-    <!-- JAVASCRIPT -->
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
     <script src="../js/lubricantes.js"></script>
     <script src="../js/script.js"></script>
+
 
 </body>
 
