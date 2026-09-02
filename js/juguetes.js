@@ -1031,4 +1031,70 @@
         "../img/Productos/Juguetes/5055.jpg"
     ]
 },
+    {
+    nombre: "Masturbadora Ultrarealista Madison – Camtoyz",
+
+    referencia: "",
+
+    codigo: "4068",
+
+    precio: "$229.000",
+
+    categoria: "masturbadores",
+
+    nombreCategoria: "Juguetes",
+
+    tallas: [],
+
+    descripcion:
+        "Masturbadora ultrarealista Madison de Camtoyz, elaborada en silicona body-safe con textura suave, diseño flexible y acabado realista.",
+
+    caracteristicas: [
+        "Silicona body-safe, suave y segura para la piel.",
+        "Canal interno texturizado.",
+        "Acabado ultrarrealista con pintura aplicada manualmente.",
+        "Diseño flexible.",
+        "Altura: 27,5 cm.",
+        "Busto: 27 cm.",
+        "Cintura: 17,5 cm.",
+        "Cadera: 30,5 cm.",
+        "Peso: 0,9 kg."
+    ],
+
+    imagenes: [
+        "../img/Productos/Juguetes/5056.jpg",
+        "../img/Productos/Juguetes/5057.jpg"
+    ]
+},  
+      {
+    nombre: "Bomba de Vacío Digital",
+
+    referencia: "",
+
+    codigo: "4300",
+
+    precio: "$122.000",
+
+    categoria: "bombas",
+
+    nombreCategoria: "Juguetes",
+
+    tallas: [],
+
+    descripcion:
+        "Bomba de vacío digital recargable con motor integrado y controles para generar succión de manera constante sin necesidad de accionamiento manual.",
+
+    caracteristicas: [
+        "Sistema de vacío digital.",
+        "Motor integrado.",
+        "Controles mediante botones.",
+        "Succión constante sin esfuerzo manual.",
+        "Diseñada para estimular temporalmente el flujo sanguíneo.",
+        "Recargable."
+    ],
+
+    imagenes: [
+        "../img/Productos/Juguetes/5058.jpg"
+    ]
+},
 ];
