@@ -1479,4 +1479,33 @@ window.listaProductos = [
         "../img/Productos/Lubricantes/6049.jpg"
     ]
 },  
+    {
+    nombre: "Lubricante Anal Elixir 30 ML",
+
+    referencia: "",
+
+    codigo: "1935",
+
+    precio: "$30.000",
+
+    categoria: "anal",
+
+    nombreCategoria: "Lubricantes",
+
+    tallas: [],
+
+    descripcion:
+        "Lubricante anal Elixir a base de agua en presentación de 30 ML, diseñado para proporcionar lubricación durante el uso íntimo.",
+
+    caracteristicas: [
+        "Fórmula a base de agua.",
+        "Presentación de 30 ML.",
+        "Aplicar la cantidad deseada aproximadamente 10 minutos antes del uso.",
+        "Pocas unidades disponibles."
+    ],
+
+    imagenes: [
+        "../img/Productos/Lubricantes/6050.jpg"
+    ]
+},
 ];
