@@ -234,4 +234,36 @@ window.listaProductos = [
         "../img/Productos/Lenceria/1034.jpg"
     ]
 }, 
+    {
+    nombre: "Conjunto de Encaje Ref. 17",
+
+    referencia: "17",
+
+    codigo: "4151",
+
+    precio: "$38.000",
+
+    categoria: "conjuntos",
+
+    nombreCategoria: "Lencería",
+
+    tallas: ["Única"],
+
+    descripcion:
+        "Conjunto de encaje con diseño delicado, ajustable y cómodo, disponible en diferentes colores pastel y negro.",
+
+    caracteristicas: [
+        "Encaje delicado.",
+        "Diseño ajustable.",
+        "Talla única.",
+        "Disponible en rosado pastel.",
+        "Disponible en amarillo pastel.",
+        "Disponible en negro."
+    ],
+
+    imagenes: [
+        "../img/Productos/Lenceria/1035.jpg",
+        "../img/Productos/Lenceria/1036.jpg"
+    ]
+},
 ];
